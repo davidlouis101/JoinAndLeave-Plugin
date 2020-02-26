@@ -25,7 +25,7 @@ class Join extends PluginBase implements Listener {
 	  $name = $player->getName();
 	
 	//JOIN MESSAGE//
-		$e->setJoinMessage("§3Der Spieler §6{$name} §9Hat Das Spiel Betreten");
+		$e->setJoinMessage("§c§lDer Spieler §6{$name} §9Hat Das Spiel Betreten");
 	   }
 	
    public function onQuit(PlayerQuitEvent $e)
