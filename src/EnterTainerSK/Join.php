@@ -24,7 +24,7 @@ class Join extends PluginBase implements Listener {
 	  $player = $e->getPlayer();
 	  $name = $player->getName();
 	
-	//JOIN MESSAGE//
+	//Andere Diese Nachricht //
 		$e->setJoinMessage("§c§lDer Spieler §6{$name} §9Hat Das Spiel Betreten");
 	   }
 	
