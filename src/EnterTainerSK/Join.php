@@ -25,7 +25,7 @@ class Join extends PluginBase implements Listener {
 	  $name = $player->getName();
 	
 	//Andere Diese Nachricht //
-		$e->setJoinMessage("§6§lPaincraft§7 >> §9{player} Hat Denn Server Betreten");
+		$e->setJoinMessage("§6§lPaincraft§7 >> §9{Player} Hat Denn Server Betreten");
 	   }
 	
    public function onQuit(PlayerQuitEvent $e)
@@ -34,7 +34,7 @@ class Join extends PluginBase implements Listener {
 	  $name = $player->getName();
 	
 	//QUIT MESSAGE //
-		$e->setQuitMessage("§6§lPaincraft§7 >> §9{player} Hat Denn Server Leider Verlassen");
+		$e->setQuitMessage("§6§lPaincraft§7 >> §9{Player} Hat Denn Server Leider Verlassen");
 	   }
 	
 	public function onDisable()
